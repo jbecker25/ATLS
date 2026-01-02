@@ -13,6 +13,7 @@ div#formcol1 {
 	float:left;	
 	width: 100%;
 }
+
 label {
 	margin-right: .3em;
 	width: 6.3em; /* I made this deliberately wide – come up with your own
@@ -21,8 +22,8 @@ label {
 	“label”. Therefore we need to set it to “inline-block” */
 	}
 
-	#formcol1 li {
-		list-style:none;
+#formcol1 li {
+list-style:none;
 		}
 
 
