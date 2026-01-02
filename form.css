@@ -15,7 +15,6 @@ div#formcol1 {
 }
 
 label {
-	text-align:right;
 	margin-right: 3em;
 	width: 5em; /* I made this deliberately wide – come up with your own
 	optimal width */
@@ -26,6 +25,11 @@ label {
 #formcol1 li {
 list-style:none;
 		}
+
+		select:focus, select:active, input:focus, input:active, input:focus + label,
+		input:active + label, label[for]:focus, label[for]:active {
+		color: #FFF !important;
+		background-color: #BB3D2F !important;}
 
 
 /* end of form css */
