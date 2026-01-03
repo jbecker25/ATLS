@@ -15,6 +15,7 @@ div#formcol1 {
 }
 
 label {
+	text-align: left;
 	margin-right: .3em;
 	width: 3em; /* I made this deliberately wide – come up with your own
 	optimal width */
